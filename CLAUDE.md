@@ -84,7 +84,10 @@ python -c "import pipeline.models"   # data model imports cleanly
 
 ## Working agreement
 
-- Develop on `claude/coastline-glacial-timeline-2Pwd7`. Commit with clear messages.
-  Do not open a PR unless asked.
+- Develop on `claude/coastline-glacial-timeline-2Pwd7`. Commit with clear messages
+  and push so work is never lost.
+- **Always open a pull request** for your changes. The PR description must state the
+  **goals** of the change — what it accomplishes and why — alongside a summary of what
+  changed. Keep the PR up to date as you push follow-up commits.
 - When you change a data shape, update **both** `data/schema/*.json` and
   `pipeline/models.py`, and note it in `docs/data-model.md`.
